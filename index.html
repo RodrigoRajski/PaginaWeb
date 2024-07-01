@@ -6,6 +6,12 @@
     <title>Servicios De Software</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<style>
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button{
+        -webkit-appearance: none;
+    }
+    </style>
 <body>
     <header>
     <div class="header">
@@ -157,31 +163,31 @@
             <form action="#">
                 <div class="input-box">
                     <div class="input-field field">
-                        <input type="text" placeholder="Full Name" id="name" class="item" autocomplete="off">
+                        <input type="text" placeholder="Nombre Completo" id="name" class="item" autocomplete="off">
                         <div class="error-txt">El nombre no puede quedar vacio</div>
                     </div>
                     <div class="input-field field">
-                        <input type="text" placeholder="Email Adress" id="email" class="item" autocomplete="off">
+                        <input type="text" placeholder="Direccion de mail" id="email" class="item" autocomplete="off">
                         <div class="error-txt email">El mail no puede quedar vacio</div>
                     </div>
                 </div>
 
                 <div class="input-box">
                     <div class="input-field field">
-                        <input type="text" placeholder="Phone Number" id="phone" class="item" autocomplete="off">
+                        <input type="number" placeholder="Numero de telefono" id="phone" class="item" autocomplete="off" >
                         <div class="error-txt">El telefono no puede quedar vacio</div>
                     </div>
                     <div class="input-field field">
-                        <input type="text" placeholder="Subject" id="subject" class="item" autocomplete="off">
+                        <input type="text" placeholder="Asunto" id="subject" class="item" autocomplete="off">
                         <div class="error-txt">El asunto no puede quedar vacio</div>
                     </div>
                 </div>
 
                 <div class="textarea-field field">
-                    <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message" class="item" autocomplete="off"></textarea>
-                    <div class="error-txt">Full name cantbe blank</div>
+                    <textarea name="" id="message" cols="30" rows="10" placeholder="Dejanos tu mensaje" class="item" autocomplete="off"></textarea>
+                    <div class="error-txt">El texto no puede quedar vacio</div>
                 </div>
-                <button type="submit">Send Message </button>
+                <button type="submit">Enviar Mensaje </button>
             </form>
         </section>
 
@@ -189,10 +195,10 @@
             <div class="footer-1 container">
                 <ul>
                     <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Nosotros</a></li>
-                    <li><a href="#">Productos</a></li>
-                    <li><a href="#">Servicios</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#Nosotros">Nosotros</a></li>
+                    <li><a href="#Productos">Productos</a></li>
+                    <li><a href="#Servicios">Servicios</a></li>
+                    <li><a href="#Contacto">Contacto</a></li>
                 </ul>
             </div>
 

@@ -1,9 +1,9 @@
-const form=document.querySelector('form');
-const fullName=document.getElementById('name');
-const email=document.getElementById('email');
-const phone=document.getElementById('phone');
-const subject=document.getElementById('subject');
-const mess=document.getElementById('message');
+const form=document.querySelector("form");
+const fullName=document.getElementById("name");
+const email=document.getElementById("email");
+const phone=document.getElementById("phone");
+const subject=document.getElementById("subject");
+const mess=document.getElementById("message");
 
 function sendEmail(){
     const bodyMessage=`Full Name: ${fullName.value}<br> Email:${email.value}<br> Phone Number:${phone.value}<br> Message:${mess.value}`;
@@ -21,8 +21,8 @@ function sendEmail(){
         message =>{
         if (message=="OK"){
             Swal.fire({
-                title: "Success!",
-                text: "Message sent successfully!",
+                title: "¡Éxitoso!",
+                text: "¡Mensaje enviado con éxito!",
                 icon: "success"
             });
         }
